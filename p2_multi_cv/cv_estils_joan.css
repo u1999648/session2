@@ -1,0 +1,136 @@
+/* de primeres, apliquem a la web general: zero paddings i margin per ja posarlos a on m'interessi
+i el border box per tal que les mides incloguin els paddings i margins */ 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+	background-color: #f4f4f4;
+	color: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 30px 0;
+}
+
+.cv-container {
+	display: flex;
+	flex-direction: row;
+	width: 900px;
+	background-color: #ffffff;
+	box-shadow: 0 0 15px #000000; /*he après aquest efecte i l'he posat, aixi es feu la fitxa CV sola més remarcada*/
+}
+
+
+.section-container {
+	display: flex;
+	flex-direction: column;
+	gap: 12px; /* separem entre elements, titol i text principalment */
+	margin-bottom: 35px; /* i separacio entre seccions verticalment  */
+}
+
+/* assegurem que no sobri espai al final de cap secció */
+.left-section .section-container:last-child,
+.right-section .section-container:last-child {
+	margin-bottom: 0;
+}
+
+/* header de foto i info personal */
+.profile-container {
+	height: 250px; 
+}
+
+/* combinacio de 1r seccio de cada costat: Summary i Working Experience */
+.summary-experience {
+	height: 200px;
+}
+
+/* tota la seccio esquerra en general */
+.left-section {
+	width: 50%;
+	background-color: #131726; 
+	color: #ffffff;
+	padding: 50px 35px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* tota la seccio dreta en general */
+.right-section {
+	width: 50%;
+	padding: 50px 35px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+
+/* nomes la zona de la foto */
+aside .profile-container {
+	align-items: center;
+	justify-content: center;
+}
+
+.foto-joan {
+	width: 140px;
+	height: 200px;
+	border-radius: 40px;
+	object-fit: cover;
+	background-color: #ccc;
+}
+
+/* haeader de la dreta només, text*/
+.header-content {
+	justify-content: center; 
+	margin-top:0;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 23px;
+}
+
+p, li {
+	font-size: 16px; 
+	line-height: 1.5;
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: 600;
+	color: #111;
+	margin-bottom: 5px;
+}
+
+.left-section ul {
+	list-style-type: disc;
+	padding-left: 30px;  /* aixi queda desplaçat com al figma, sino el html em posava en linia el titol i el text, i aixo no ho volia */
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.job-reference {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-bottom: 25px; 
+}
+
+.job-reference h3 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.job-phone {
+	margin-bottom:25px;
