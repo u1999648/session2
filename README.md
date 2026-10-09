@@ -29,6 +29,6 @@ References:
   - Link 2: https://www.canva.com/resumes/templates/modern 
 
 IA usage:
-- Html and css: I only used AI to consult doubts of html and css usage. Not to generate the code for me, not to copy Figma syle without me knowing how to. I learned using html and css, and I am glad I did. 
+- Html and css: I only used AI to consult doubts of html and css usage. Not to generate the code for me, not to copy Figma syle without me knowing how to, etc. I learned using html and css, and I am glad I did. 
 - Figma: Zero. 
 
