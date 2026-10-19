@@ -2,6 +2,9 @@
 
 Joan Ruiz Solé - u1999648 - P.Inf-2
 
+See Joan Ruiz's CV: https://u1999648.github.io/session2/p2_multi_cv/cv_joan.html 
+
+
 User profile: 
 
 The final user will be some small business owner or RRHH worker in any company. This person needs to see easily which are my studies, working experience and main skills. 
