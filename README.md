@@ -2,7 +2,7 @@
 
 Joan Ruiz Solé - u1999648 - P.Inf-2
 
-👉 **[Click here to see Joan Ruiz's CV ](https://u1999648.github.io/session2/p2_multi_cv/cv_joan.html)** 
+👉 **[CLICK HERE TO SEE JOAN'S CV WEBSITE](https://u1999648.github.io/session2/p2_multi_cv/cv_joan.html)** 
 
 User profile: 
 
